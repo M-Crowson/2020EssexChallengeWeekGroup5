@@ -73,10 +73,10 @@ def clean_text(text_in):
 
 class TweetFetcher:
     def __init__(self):
-        consumer_api_key = 'nCSS9AOFEtjC6z3hSrfdgh760'
-        consumer_api_secret = 'zj6ELUiIIycKmSEx6jzUgNIYBGLPk7uLnF241rGzmHvcgHQJ9H' 
-        access_token = '1315955315314167808-3rEY0WXk5XasWU1AgCEX6Ahbkjonzs'
-        access_token_secret ='rSc7JXXHqwbbqAHOp3qHUwSYpLC8ViXybnnCXs3M4DNWI'
+        consumer_api_key = 'x'
+        consumer_api_secret = 'x' 
+        access_token = 'x'
+        access_token_secret ='x'
 
         authorizer = OAuthHandler(consumer_api_key, consumer_api_secret)
         authorizer.set_access_token(access_token, access_token_secret)
